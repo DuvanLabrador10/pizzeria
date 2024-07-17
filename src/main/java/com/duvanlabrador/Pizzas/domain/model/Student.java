@@ -15,7 +15,6 @@ import lombok.*;
 @Builder
 public class Student {
 
-    @JsonProperty(access = JsonProperty.Access.READ_ONLY)
     private Long studentId;
     private String name;
     private String lastname;
