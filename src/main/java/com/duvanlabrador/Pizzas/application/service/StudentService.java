@@ -16,29 +16,29 @@ import java.util.List;
 public class StudentService implements StudentServicePort {
 
     private final StudentPersistencePort studentPersistencePort;
-    
+
     @Override
     public List<Student> getAllStudents(int page, int size) {
-        return List.of();
+        return studentPersistencePort.findAllStudents(page,size);
     }
 
     @Override
     public Student getStudentFindById(Long studentId) {
-        return null;
+        return studentPersistencePort.findStudentById(studentId);
     }
 
     @Override
     public Student createStudent(Student student) {
-        return null;
+        return studentPersistencePort.createStudent(student);
     }
 
     @Override
     public Student updateStudent(Long studentId, Student student) {
-        return null;
+        return studentPersistencePort.updateStudent(studentId, student);
     }
 
     @Override
     public Boolean deleteEmployee(Long studentId) {
-        return null;
+        return studentPersistencePort.deleteStudentById(studentId);
     }
 }

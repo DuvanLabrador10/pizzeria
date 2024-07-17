@@ -9,7 +9,7 @@ public interface StudentPersistencePort {
 
     List<Student> findAllStudents(int page, int size);
 
-    Optional<Student> findStudentById(Long studentId);
+    Student findStudentById(Long studentId);
 
     Student createStudent(Student student);
 
