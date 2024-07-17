@@ -16,9 +16,9 @@ import java.util.List;
 public class StudentService implements StudentServicePort {
 
     private final StudentPersistencePort studentPersistencePort;
-
+    
     @Override
-    public List<Student> getAllStudents() {
+    public List<Student> getAllStudents(int page, int size) {
         return List.of();
     }
 
@@ -28,7 +28,7 @@ public class StudentService implements StudentServicePort {
     }
 
     @Override
-    public Student saveStudent(Student student) {
+    public Student createStudent(Student student) {
         return null;
     }
 

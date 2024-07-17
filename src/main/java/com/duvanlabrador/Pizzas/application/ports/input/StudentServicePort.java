@@ -10,11 +10,11 @@ import java.util.List;
  **/
 public interface StudentServicePort {
 
-    public List<Student> getAllStudents();
+    public List<Student> getAllStudents(int page, int size);
 
     public Student getStudentFindById(Long studentId);
 
-    public Student saveStudent(Student student);
+    public Student createStudent(Student student);
 
     public Student updateStudent(Long studentId, Student student);
 

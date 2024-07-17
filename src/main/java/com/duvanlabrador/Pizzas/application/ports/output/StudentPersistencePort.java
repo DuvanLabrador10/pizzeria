@@ -7,11 +7,13 @@ import java.util.Optional;
 
 public interface StudentPersistencePort {
 
-    List<Student> findAllStudents();
+    List<Student> findAllStudents(int page, int size);
 
     Optional<Student> findStudentById(Long studentId);
 
-    Student save(Student student);
+    Student createStudent(Student student);
+
+    Student updateStudent(Long studentId, Student student);
 
     Boolean deleteStudentById(Long studentId);
 
