@@ -3,9 +3,8 @@ package com.duvanlabrador.Pizzas.application.ports.output;
 import com.duvanlabrador.Pizzas.domain.model.Student;
 
 import java.util.List;
-import java.util.Optional;
 
-public interface StudentPersistencePort {
+public interface IStudentPersistencePort {
 
     List<Student> findAllStudents(int page, int size);
 

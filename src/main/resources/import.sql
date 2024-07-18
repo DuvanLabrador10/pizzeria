@@ -1,0 +1,15 @@
+INSERT INTO students (name,lastname,age,address) VALUES ("Leo", "Messi", "37", "Miami");
+INSERT INTO students (name,lastname,age,address) VALUES ("Leo", "Messi", "37", "Miami");
+INSERT INTO students (name,lastname,age,address) VALUES ("Leo", "Messi", "37", "Miami");
+INSERT INTO students (name,lastname,age,address) VALUES ("Leo", "Messi", "37", "Miami");
+INSERT INTO students (name,lastname,age,address) VALUES ("Leo", "Messi", "37", "Miami");
+INSERT INTO students (name,lastname,age,address) VALUES ("Leo", "Messi", "37", "Miami");
+INSERT INTO students (name,lastname,age,address) VALUES ("Leo", "Messi", "37", "Miami");
+INSERT INTO students (name,lastname,age,address) VALUES ("Leo", "Messi", "37", "Miami");
+INSERT INTO students (name,lastname,age,address) VALUES ("Leo", "Messi", "37", "Miami");
+INSERT INTO students (name,lastname,age,address) VALUES ("Leo", "Messi", "37", "Miami");
+INSERT INTO students (name,lastname,age,address) VALUES ("Leo", "Messi", "37", "Miami");
+INSERT INTO students (name,lastname,age,address) VALUES ("Leo", "Messi", "37", "Miami");
+INSERT INTO students (name,lastname,age,address) VALUES ("Leo", "Messi", "37", "Miami");
+INSERT INTO students (name,lastname,age,address) VALUES ("Leo", "Messi", "37", "Miami");
+INSERT INTO students (name,lastname,age,address) VALUES ("Leo", "Messi", "37", "Miami");

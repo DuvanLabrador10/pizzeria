@@ -8,7 +8,7 @@ import java.util.List;
  *
  * Ya que application puede acceder a domain.
  **/
-public interface StudentServicePort {
+public interface IStudentServicePort {
 
     public List<Student> getAllStudents(int page, int size);
 
