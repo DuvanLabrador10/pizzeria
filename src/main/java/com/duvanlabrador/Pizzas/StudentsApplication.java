@@ -1,13 +1,16 @@
 package com.duvanlabrador.Pizzas;
 
+import org.springframework.boot.Banner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PizzasApplication {
+public class StudentsApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PizzasApplication.class, args);
+		SpringApplication app  = new SpringApplication(StudentsApplication.class);
+		app.setBannerMode(Banner.Mode.OFF);
+		app.run(args);
 	}
 
 }

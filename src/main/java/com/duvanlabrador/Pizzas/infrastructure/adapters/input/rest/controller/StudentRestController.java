@@ -3,6 +3,7 @@ package com.duvanlabrador.Pizzas.infrastructure.adapters.input.rest.controller;
 import com.duvanlabrador.Pizzas.infrastructure.adapters.input.rest.dto.request.StudentRequestDto;
 import com.duvanlabrador.Pizzas.infrastructure.adapters.input.rest.dto.response.StudentResponseDto;
 import com.duvanlabrador.Pizzas.infrastructure.adapters.input.rest.handler.IStudentHandler;
+import jakarta.validation.Valid;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
